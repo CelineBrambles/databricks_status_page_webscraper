@@ -36,4 +36,4 @@ jobs:
 
       - name: Commit updated CSV
         run: |
-          git config --global user.email "automation-bot@example.com
+          git config --global user.email "automation-bot@example.com"
