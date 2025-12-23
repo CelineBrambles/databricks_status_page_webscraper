@@ -23,7 +23,9 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install selenium webdriver-manager notebook nbconvert
+          pip install pandas selenium webdriver-manager notebook nbconvert
+
+          
 
       - name: Run Selenium notebook
         run: |
