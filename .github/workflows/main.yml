@@ -37,3 +37,8 @@ jobs:
       - name: Commit updated CSV
         run: |
           git config --global user.email "automation-bot@example.com"
+          git config --global user.name "Automation Bot"
+          git add *.csv
+          git commit -m "Daily scrape update" || echo "No changes to commit"
+          git push
+
