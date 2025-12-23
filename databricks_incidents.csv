@@ -1,0 +1,10 @@
+year,month,incident_name,incident_description
+2025,December,US West 2 - Compute (Degraded Performance),"Between 00:11 UTC and 01:32 UTC December 17, 2025, customers may have experienced failures or delays when provisioning classic compute resources for interactive or job workloads.
+
+The incident is now closed. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com."
+2025,December,US East 1 - Compute,"Our investigation has confirmed that this issue did not impact the Databricks service. 
+
+We are closing this incident and apologize for any confusion."
+2025,December,US Gov West 1 - Multiple services (Service Disruption),"Between 23:51 UTC on December 3 and 01:00 UTC on December 4, 2025, customers may have experienced a complete outage, with all Databricks services presumed unavailable during this period.
+
+The incident is now closed. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com."
