@@ -11,13 +11,13 @@ Current Status:
 This incident has been fully resolved as of 20 February 2026 00:23 UTC. Normal service has been restored. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.
 
 Next Update:
-No further updates are planned unless conditions change.",RESOLVED,Unity Catalog,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6997a6eee8c8ee05f0c5816c,2026-02-22T06:53:51Z
+No further updates are planned unless conditions change.",RESOLVED,Unity Catalog,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6997a6eee8c8ee05f0c5816c,2026-02-23T07:09:08Z
 2026,February,US East 2 - Compute (Degraded Performance),"Between 17 February 2026 20:06 UTC and 17 February 2026 21:40 UTC, Serverless Compute in AWS US East (Ohio) experienced launch failure for workspaces with private connectivity configured.
 
-The incident is now closed. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,US East 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6994cf17dc06a905f7a47f17,2026-02-22T06:53:51Z
+The incident is now closed. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,US East 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6994cf17dc06a905f7a47f17,2026-02-23T07:09:08Z
 2026,February,CA Central 1 - Lakeflow (Partial Service Disruption),"Between 18:31 and 19:33  UTC February 11, 2026, customers in Canada Central may have experienced degraded performance when creating, accessing, or running declarative pipelines.
 
-The incident is now closed. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Lakeflow,CA Central 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/698cd976dc06a905f7a47cd2,2026-02-22T06:53:51Z
+The incident is now closed. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Lakeflow,CA Central 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/698cd976dc06a905f7a47cd2,2026-02-23T07:09:08Z
 2026,February,Multiple regions - Notebooks (Partial Service Disruption),"Impact Summary
 Between 11 February 2026 00:52 UTC and 11 February 2026 12:45 UTC, login attempts using Microsoft Social Login (SSO) may have failed.
 
@@ -29,7 +29,7 @@ This incident is resolved. Microsoft Social Login (SSO) authentication is functi
 We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.
 
 Next Update
-No further updates are planned unless conditions change.",RESOLVED,Notebooks,"CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/698c6ac728ef8c06090a0982,2026-02-22T06:53:51Z
+No further updates are planned unless conditions change.",RESOLVED,Notebooks,"CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/698c6ac728ef8c06090a0982,2026-02-23T07:09:08Z
 2026,February,US East 1 - Databricks Apps (Degraded Performance),"Impact Summary
 Between 05 February 2026 03:44 UTC and 05 February 2026 22:00 UTC, Databricks Apps in AWS us-east-1 may have failed to start or restart.
 
@@ -41,4 +41,4 @@ This incident is resolved. Databricks Apps service is functional.
 We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.
 
 Next Update
-No further updates are planned unless conditions change.",RESOLVED,Databricks Apps,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69850dc882fc3505bb4e83f2,2026-02-22T06:53:51Z
+No further updates are planned unless conditions change.",RESOLVED,Databricks Apps,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69850dc882fc3505bb4e83f2,2026-02-23T07:09:08Z
