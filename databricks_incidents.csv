@@ -1,4 +1,16 @@
 year,month,incident_name,incident_description,status,components,locations,url,scraped_at
+2026,March,Multiple regions - Compute (Degraded Performance),"Between 11:00 UTC and 13:20 UTC on March 24, 2026, customers using Databricks experienced degraded availability with Serverless Compute. Affected customers may have experienced cluster launch failures and job execution errors.
+
+• Serverless REPL cluster launches may fail to initialize correctly
+• Job runs may terminate unexpectedly with DRIVER_UNRESPONSIVE errors
+• Clusters may become stuck in restart loops after multiple failures
+• New cluster creation may fail during the spin-up process
+
+Recommendations
+No customer action is required at this time.
+
+Current Status
+This incident has been fully resolved as of 24 March 2026 13:20 UTC. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,"EU West 1, EU West 2, EU Central 1, US East 1, US East 2, US West 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69c275776d1d12059dda2258,2026-03-25T07:07:07Z
 2026,March,US East 2 - Free Edition (Degraded Performance),"Between 18:24 UTC and 20:26 UTC on March 20 2026, customers using the Databricks Free Edition may have encountered failures of to start clusters or jobs.
 
 This issue is now mitigated.
@@ -7,7 +19,7 @@ This issue is now mitigated.
 
 Next Update
 
-The incident is now closed, and no further updates are planned. We apologize for any inconvenience this may have caused.",RESOLVED,Free Edition,US East 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69bd967e90ff0a0585377693,2026-03-24T07:09:00Z
+The incident is now closed, and no further updates are planned. We apologize for any inconvenience this may have caused.",RESOLVED,Free Edition,US East 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69bd967e90ff0a0585377693,2026-03-25T07:07:07Z
 2026,March,US East 1 - Multiple services (Partial Service Disruption),"From 13 March 2026 21:21 UTC to 13 March 2026 22:11 UTC, customers using Databricks SQL, Unity Catalog, and dependent services in AWS us-east-1 experienced service disruptions. All services are now restored
 
 Symptoms
@@ -24,4 +36,4 @@ This incident has been fully resolved as of 13 March 2026 22:11 UTC. We apologiz
 
 Next Update
 
-No further updates are planned unless conditions change.",RESOLVED,"Databricks SQL, Lakeflow, Unity Catalog",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69b48b545962000a23bc3984,2026-03-24T07:09:00Z
+No further updates are planned unless conditions change.",RESOLVED,"Databricks SQL, Lakeflow, Unity Catalog",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69b48b545962000a23bc3984,2026-03-25T07:07:07Z
