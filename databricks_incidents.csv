@@ -18,7 +18,7 @@ We apologize for any inconvenience this may have caused. If you require further 
                                                                                                                                                                                                                                                  
  Next Update :                                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                 
- No further updates are planned unless conditions change.",RESOLVED,Compute,US Gov West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69de8c763fb5a505ae2d84ba,2026-04-15T07:52:56Z
+ No further updates are planned unless conditions change.",RESOLVED,Compute,US Gov West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69de8c763fb5a505ae2d84ba,2026-04-16T07:52:44Z
 2026,April,Multiple regions - Multiple services,"Impact Summary
 
 Between 14 April 2026 02:04 UTC and 14 April 2026 02:10 UTC, customers using Databricks in multiple regions experienced authentication failures.
@@ -35,4 +35,4 @@ This incident has been fully resolved as of 14 April 2026 02:10 UTC. Normal serv
 
 Next Update
 
-No further updates are planned unless conditions change.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakebase, Lakeflow, Mosaic AI, Notebooks, Unity Catalog, Free Edition","CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US Gov West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69dda98b8a263706006e7d8e,2026-04-15T07:52:56Z
+No further updates are planned unless conditions change.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakebase, Lakeflow, Mosaic AI, Notebooks, Unity Catalog, Free Edition","CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US Gov West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69dda98b8a263706006e7d8e,2026-04-16T07:52:44Z
