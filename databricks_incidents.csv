@@ -1,4 +1,20 @@
 year,month,incident_name,incident_description,status,components,locations,url,scraped_at
+2026,April,Multiple regions - Compute (Degraded Performance),"Impact Summary                                                                                                                                                                 
+                  
+Between 05:54 UTC and 07:30 UTC on 16 April 2026, customers may have experienced cluster launch delays or failures.
+  
+Symptoms                                                                                                                                                                       
+                  
+Customers may observe:
+  - Delays or failures in launching clusters
+  - Jobs dependent on affected clusters may fail or experience delays
+                                                                                                                                                                                 
+ 
+Current Status                                                                                                                                                                 
+                  
+This incident has been fully resolved as of 16 April 2026, 07:30 UTC. 
+
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,"EU Central 1, US East 1, US West 1",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69e093a98a263706006e7f5c,2026-04-17T07:52:39Z
 2026,April,US Gov West 1 - Compute (Partial Service Disruption),"Between 14 April 2026 17:50 UTC and 14 April 2026 19:21 UTC, customers using Classic Compute and Jobs Compute in AWS us-gov-west-1 may have experienced failures when attempting to start clusters.     
 
 Between 14 April 2026 19:06 UTC and 14 April 2026 20:05 UTC, customers using Serverless Compute in AWS us-gov-west-1 may experienced failures when attempting to start clusters.                                                                    
@@ -18,7 +34,7 @@ We apologize for any inconvenience this may have caused. If you require further 
                                                                                                                                                                                                                                                  
  Next Update :                                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                 
- No further updates are planned unless conditions change.",RESOLVED,Compute,US Gov West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69de8c763fb5a505ae2d84ba,2026-04-16T07:52:44Z
+ No further updates are planned unless conditions change.",RESOLVED,Compute,US Gov West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69de8c763fb5a505ae2d84ba,2026-04-17T07:52:39Z
 2026,April,Multiple regions - Multiple services,"Impact Summary
 
 Between 14 April 2026 02:04 UTC and 14 April 2026 02:10 UTC, customers using Databricks in multiple regions experienced authentication failures.
@@ -35,4 +51,4 @@ This incident has been fully resolved as of 14 April 2026 02:10 UTC. Normal serv
 
 Next Update
 
-No further updates are planned unless conditions change.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakebase, Lakeflow, Mosaic AI, Notebooks, Unity Catalog, Free Edition","CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US Gov West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69dda98b8a263706006e7d8e,2026-04-16T07:52:44Z
+No further updates are planned unless conditions change.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakebase, Lakeflow, Mosaic AI, Notebooks, Unity Catalog, Free Edition","CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US Gov West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69dda98b8a263706006e7d8e,2026-04-17T07:52:39Z
