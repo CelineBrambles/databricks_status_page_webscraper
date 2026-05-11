@@ -17,7 +17,7 @@ This incident has been fully resolved as of 08 May 2026 23:55 UTC. Normal operat
 For information about the underlying cloud provider event, refer to health.aws.amazon.com/health/status.
 
 Next Update
-No further updates are planned for this incident.",RESOLVED,"Compute, Databricks SQL, Lakeflow, Mosaic AI, Unity Catalog",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69fd2c4198ca07050eb4b143,2026-05-10T08:11:21Z
+No further updates are planned for this incident.",RESOLVED,"Compute, Databricks SQL, Lakeflow, Mosaic AI, Unity Catalog",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69fd2c4198ca07050eb4b143,2026-05-11T09:45:30Z
 2026,May,Multiple regions - Compute (Partial Service Disruption),"Impact Summary
 Between 03:33 UTC and 08:06 UTC on 05 May 2026, Classic Compute in multiple regions may have failed to start clusters when init scripts configured. There was brief recovery observed at 05:55 UTC. Full recovery was observed at 08:06 UTC.
 
@@ -32,4 +32,4 @@ No customer action is required at this time.
 Current Status
 This incident has been fully resolved as of 08:06 UTC 05 May 2026. 
 
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,"EU West 1, EU West 2, US East 1, US East 2, US West 1, US West 2, AP South 1, AP Southeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69f99ed61cc37505204a467c,2026-05-10T08:11:21Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,"EU West 1, EU West 2, US East 1, US East 2, US West 1, US West 2, AP South 1, AP Southeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69f99ed61cc37505204a467c,2026-05-11T09:45:30Z
