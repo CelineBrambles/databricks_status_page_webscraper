@@ -14,7 +14,7 @@ Customers experienced:
 Current Status
   
 This incident has been resolved. All workspace access and API services in AWS EU West 1 (Ireland) are operating normally.
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakeflow, Mosaic AI, Notebooks, Unity Catalog",EU West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a05d4a84e7a36374dd1ae31,2026-05-15T08:52:34Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakeflow, Mosaic AI, Notebooks, Unity Catalog",EU West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a05d4a84e7a36374dd1ae31,2026-05-16T08:08:23Z
 2026,May,US West 2 - Multiple services (Service Disruption),"Impact Summary
 
 Between 14 May 2026 05:17 UTC and 14 May 2026 07:43 UTC, customers using the Workspace UI, Classic Compute, Databricks SQL, AI/BI Dashboards, and MLflow in AWS us-west-2 experienced failures completing operations across these services.
@@ -28,7 +28,7 @@ Customers experienced:
 - Failures when calling Databricks APIs
 
 Current Status
-This incident has been fully resolved as of 14 May 2026 07:43 UTC. Normal operation has been restored. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakebase, Lakeflow, Mosaic AI, Notebooks, Unity Catalog",US West 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a0565d9e37d37374089eb01,2026-05-15T08:52:34Z
+This incident has been fully resolved as of 14 May 2026 07:43 UTC. Normal operation has been restored. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakebase, Lakeflow, Mosaic AI, Notebooks, Unity Catalog",US West 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a0565d9e37d37374089eb01,2026-05-16T08:08:23Z
 2026,May,US East 1 - Multiple services (Degraded Performance),"Impact Summary
 From 07 May 2026 23:59 UTC to 08 May 2026 17:24 UTC, and again from 23:36 UTC to 23:55 UTC, customers using Databricks workspaces in the AWS us-east-1 region experienced intermittent errors and failures across catalog, compute, and job execution features.
 
@@ -47,7 +47,7 @@ This incident has been fully resolved as of 08 May 2026 23:55 UTC. Normal operat
 For information about the underlying cloud provider event, refer to health.aws.amazon.com/health/status.
 
 Next Update
-No further updates are planned for this incident.",RESOLVED,"Compute, Databricks SQL, Lakeflow, Mosaic AI, Unity Catalog",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69fd2c4198ca07050eb4b143,2026-05-15T08:52:34Z
+No further updates are planned for this incident.",RESOLVED,"Compute, Databricks SQL, Lakeflow, Mosaic AI, Unity Catalog",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69fd2c4198ca07050eb4b143,2026-05-16T08:08:23Z
 2026,May,Multiple regions - Compute (Partial Service Disruption),"Impact Summary
 Between 03:33 UTC and 08:06 UTC on 05 May 2026, Classic Compute in multiple regions may have failed to start clusters when init scripts configured. There was brief recovery observed at 05:55 UTC. Full recovery was observed at 08:06 UTC.
 
@@ -62,4 +62,4 @@ No customer action is required at this time.
 Current Status
 This incident has been fully resolved as of 08:06 UTC 05 May 2026. 
 
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,"EU West 1, EU West 2, US East 1, US East 2, US West 1, US West 2, AP South 1, AP Southeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69f99ed61cc37505204a467c,2026-05-15T08:52:34Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,"EU West 1, EU West 2, US East 1, US East 2, US West 1, US West 2, AP South 1, AP Southeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/69f99ed61cc37505204a467c,2026-05-16T08:08:23Z
