@@ -1,66 +1,15 @@
 year,month,incident_name,incident_description,status,components,locations,url,scraped_at
-2026,May,Multiple regions - Multiple services (Degraded Performance),"Between 00:00 UTC and 07:27 UTC on May 31, 2026, customers using Databricks may have experienced errors and failures with Declarative Pipelines and Lakebase. A subset of customers may have been unable to run or complete pipeline workloads, and may have experienced failures when attempting to connect to or query Lakebase instances.
+2026,June,US East 1 - Unity Catalog (Partial Service Disruption),"Impact Summary
+Between 2026-06-08 15:55 UTC and 2026-06-08 16:35 UTC, customers using Unity Catalog in the AWS US East (N. Virginia) region experienced failures and delays when accessing governed data, metadata, and System Tables.
 
 Symptoms
-• Pipeline runs failed or terminated unexpectedly with errors, including synced table pipeline failures
-• Lakebase queries and connections failed with connectivity errors
-• Synced table pipelines were unable to complete successfully
+Customers experienced:
+- Errors or failures when accessing Unity Catalog-governed data and metadata
+- Failed or delayed requests to read or query System Tables (Audit Logs, Billable Usage, Lineage)
+- Intermittent failures performing catalog and governance operations
 
 Current Status
-This incident has been resolved.
-
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Lakebase, Lakeflow","EU West 1, EU Central 1, US East 1, US West 2, AP South 1, AP Southeast 1",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a1b96b4f38e5605e00170bc,2026-06-08T11:01:32Z
-2026,May,Multiple regions - Lakeflow (Partial Service Disruption),"Impact Summary
-Between 26 May 2026 17:14 UTC and 26 May 2026 20:53 UTC, customers using Lakeflow Spark Declarative Pipelines experienced pipeline start and restart failures.
-
-Symptoms
-Customers may have observed:
-- Pipelines failing to start or restart
-- Pipeline updates terminating shortly after launch
-
-Current Status
-This incident has been fully resolved and normal operation has been restored. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.
+This incident has been fully resolved as of 2026-06-08 16:35 UTC, and Unity Catalog is operating normally. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.
 
 Next Update
-No further updates are planned for this incident.",RESOLVED,Lakeflow,"EU Central 1, US East 1, US East 2, US West 2, AP Southeast 2, AP Southeast 3",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a15edf318ad2405727ddfb6,2026-06-08T11:01:32Z
-2026,May,US East 1 - Multiple services (Degraded Performance),"Between 00:34 UTC and 03:00 UTC on May 19, 2026, a subset of customers using Databricks may have experienced failures or degraded availability with Serverless Compute, Declarative Pipelines, and Jobs. There was a brief recovery period between approximately 01:31 UTC and 01:51 UTC during which services appeared to stabilize before further periods of disruption were observed. Affected customers may have encountered errors, cluster allocation timeouts, or unexpected termination of workloads during this window.
-
-Symptoms
-• Serverless Compute workloads failed to start or terminated unexpectedly
-• Cluster allocation timeouts prevented Declarative Pipelines and Jobs from running
-• Errors were returned when attempting to execute Serverless Compute workloads
-
-Current Status
-This incident has been resolved.
-
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Compute, Lakeflow",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a0bb49f6ba3c405fd184a63,2026-06-08T11:01:32Z
-2026,May,EU West 1 - Multiple services,"Impact Summary
-  
-Between 14 May 2026 12:46 UTC and 14 May 2026 13:02 UTC, customers accessing Databricks workspaces in AWS EU West 1 (Ireland) may have experienced failures when attempting to connect to or use their workspaces.
-
-
-Customers experienced:
-
-  - Workspace UI unresponsive or returning service unavailable errors
-  - Login and authentication attempts returning errors
-  - Failures when calling Databricks APIs
-  - Errors loading notebooks, Databricks SQL queries, and AI/BI Dashboards
-  
-Current Status
-  
-This incident has been resolved. All workspace access and API services in AWS EU West 1 (Ireland) are operating normally.
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakeflow, Mosaic AI, Notebooks, Unity Catalog",EU West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a05d4a84e7a36374dd1ae31,2026-06-08T11:01:32Z
-2026,May,US West 2 - Multiple services (Service Disruption),"Impact Summary
-
-Between 14 May 2026 05:17 UTC and 14 May 2026 07:43 UTC, customers using the Workspace UI, Classic Compute, Databricks SQL, AI/BI Dashboards, and MLflow in AWS us-west-2 experienced failures completing operations across these services.
-
-Symptoms
-
-Customers experienced:
-- Errors when opening notebooks or browsing workspace folders
-- Failures when starting clusters or running jobs
-- Errors loading Databricks SQL queries and AI/BI Dashboards
-- Failures when calling Databricks APIs
-
-Current Status
-This incident has been fully resolved as of 14 May 2026 07:43 UTC. Normal operation has been restored. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Compute, Databricks Apps, Databricks SQL, Lakebase, Lakeflow, Mosaic AI, Notebooks, Unity Catalog",US West 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a0565d9e37d37374089eb01,2026-06-08T11:01:32Z
+No further updates are planned for this incident.",RESOLVED,Unity Catalog,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a26efc36ebd5805fd5fa6e0,2026-06-09T09:51:22Z
