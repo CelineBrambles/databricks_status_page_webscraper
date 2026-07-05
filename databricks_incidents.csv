@@ -11,7 +11,7 @@ Customers may have experienced:
 
 Current Status
 
-This incident has been fully resolved as of 29 June 2026 22:19 UTC. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Databricks Apps,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a42eef2504679514efa64da,2026-07-04T08:41:06Z
+This incident has been fully resolved as of 29 June 2026 22:19 UTC. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Databricks Apps,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a42eef2504679514efa64da,2026-07-05T08:55:53Z
 2026,June,US East 1 - Unity Catalog (Partial Service Disruption),"Impact Summary
 Between 2026-06-08 15:55 UTC and 2026-06-08 16:35 UTC, customers using Unity Catalog in the AWS US East (N. Virginia) region experienced failures and delays when accessing governed data, metadata, and System Tables.
 
@@ -25,4 +25,4 @@ Current Status
 This incident has been fully resolved as of 2026-06-08 16:35 UTC, and Unity Catalog is operating normally. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.
 
 Next Update
-No further updates are planned for this incident.",RESOLVED,Unity Catalog,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a26efc36ebd5805fd5fa6e0,2026-07-04T08:41:06Z
+No further updates are planned for this incident.",RESOLVED,Unity Catalog,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a26efc36ebd5805fd5fa6e0,2026-07-05T08:55:53Z
