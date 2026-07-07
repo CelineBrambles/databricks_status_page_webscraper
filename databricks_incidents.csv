@@ -1,28 +1,11 @@
 year,month,incident_name,incident_description,status,components,locations,url,scraped_at
-2026,June,US East 1 - Databricks Apps (Service Disruption),"Impact Summary
-
-Between 29 June 2026 21:22 UTC and 29 June 2026 22:19 UTC, customers using Databricks Apps in AWS US East (N. Virginia) may have been unable to create, deploy, stop, or delete apps.
+2026,July,US East 1 - Compute (Degraded Performance),"Between 09:55 UTC and 13:54 UTC on July 6, 2026, a subset of customers using Databricks may have experienced failures or unexpected terminations when launching or running compute clusters, as well as failures with job runs on affected services. A subset of customers may have experienced degraded availability or errors with Classic Compute, Jobs, page loads.
 
 Symptoms
-
-Customers may have experienced:
-- App creation, deployment, stop, and deletion operations failing or returning errors
-- App management operations not completing through the Workspace UI or Databricks APIs
-
-Current Status
-
-This incident has been fully resolved as of 29 June 2026 22:19 UTC. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Databricks Apps,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a42eef2504679514efa64da,2026-07-06T10:28:00Z
-2026,June,US East 1 - Unity Catalog (Partial Service Disruption),"Impact Summary
-Between 2026-06-08 15:55 UTC and 2026-06-08 16:35 UTC, customers using Unity Catalog in the AWS US East (N. Virginia) region experienced failures and delays when accessing governed data, metadata, and System Tables.
-
-Symptoms
-Customers experienced:
-- Errors or failures when accessing Unity Catalog-governed data and metadata
-- Failed or delayed requests to read or query System Tables (Audit Logs, Billable Usage, Lineage)
-- Intermittent failures performing catalog and governance operations
+• Clusters unexpectedly terminated shortly after launch
+• New cluster launches failed to start
+• Job runs failed or terminated unexpectedly
+• Degraded UI page loads
 
 Current Status
-This incident has been fully resolved as of 2026-06-08 16:35 UTC, and Unity Catalog is operating normally. We apologize for the disruption. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.
-
-Next Update
-No further updates are planned for this incident.",RESOLVED,Unity Catalog,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a26efc36ebd5805fd5fa6e0,2026-07-06T10:28:00Z
+This incident has been resolved. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a4bc10fdf734251697ef9d3,2026-07-07T09:46:46Z
