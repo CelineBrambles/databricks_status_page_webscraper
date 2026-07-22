@@ -9,7 +9,7 @@ Symptoms
 Current Status
 This incident has been resolved.
 
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Compute, Lakeflow","CA Central 1, EU West 3, US East 1, US East 2, US West 1, US West 2, SA East 1, AP Southeast 2, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a5181f7504679514efa68c8,2026-07-21T08:32:53Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Compute, Lakeflow","CA Central 1, EU West 3, US East 1, US East 2, US West 1, US West 2, SA East 1, AP Southeast 2, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a5181f7504679514efa68c8,2026-07-22T08:32:33Z
 2026,July,Multiple regions - Agent Bricks,"Between 13:21 UTC and 14:37 UTC on July 7, 2026, a subset of customers using Databricks may have experienced failures or errors when using Model Serving. Affected customers may have seen requests to model serving endpoints fail or return errors, or experienced degraded availability of the service during this window.
 
 Symptoms
@@ -18,7 +18,7 @@ Symptoms
 • Degraded availability of Model Serving in some workspaces
 
 Current Status
-This incident has been resolved. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Agent Bricks,"EU West 1, EU Central 1, US East 1, US West 2, AP Southeast 2, AP Northeast 1",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a4d2faf59348e05f706fe2a,2026-07-21T08:32:53Z
+This incident has been resolved. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Agent Bricks,"EU West 1, EU Central 1, US East 1, US West 2, AP Southeast 2, AP Northeast 1",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a4d2faf59348e05f706fe2a,2026-07-22T08:32:33Z
 2026,July,US East 1 - Compute (Degraded Performance),"Between 09:55 UTC and 13:54 UTC on July 6, 2026, a subset of customers using Databricks may have experienced failures or unexpected terminations when launching or running compute clusters, as well as failures with job runs on affected services. A subset of customers may have experienced degraded availability or errors with Classic Compute, Jobs, page loads.
 
 Symptoms
@@ -28,4 +28,4 @@ Symptoms
 • Degraded UI page loads
 
 Current Status
-This incident has been resolved. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a4bc10fdf734251697ef9d3,2026-07-21T08:32:53Z
+This incident has been resolved. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a4bc10fdf734251697ef9d3,2026-07-22T08:32:33Z
