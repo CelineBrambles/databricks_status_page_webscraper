@@ -1,42 +1,12 @@
 year,month,incident_name,incident_description,status,components,locations,url,scraped_at
-2026,July,US Gov West 1 - Multiple services,"Between 00:34 UTC and 01:21 UTC on July 30, 2026, a subset of customers using Databricks may have experienced failures or delayed startup of Serverless Compute workloads, along with degraded availability affecting Databricks SQL, Jobs, and Declarative Pipelines. Normal availability was restored by the end of the impact window.
+2026,August,EU West 1 - Multiple services (Partial Service Disruption),"Between 10:10 UTC and 13:00 UTC on August 6, 2026, a subset of customers using Databricks may have experienced failures or delays when starting Serverless Compute and Classic Compute resources, including SQL warehouses, as well as failures affecting Declarative Pipelines. Impact varied in severity and duration across the affected services during this window.
 
 Symptoms
-• Serverless compute clusters failed to launch, returning cluster-matching errors.
-• Jobs and Declarative Pipelines experienced failures or delays tied to compute availability.
-• Databricks SQL availability was degraded during the incident window.
+• Serverless SQL warehouses failed to start or experienced startup delays
+• Classic compute SQL warehouses failed to start or experienced intermittent delays
+• Declarative Pipelines experienced execution failures
 
 Current Status
 This incident has been resolved.
 
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Compute, Databricks SQL, Lakeflow",US Gov West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a6aaf8b892d7304f2746ed6,2026-08-06T08:39:37Z
-2026,July,Multiple regions - Multiple services,"Between 22:29 UTC and 23:00 UTC on July 10, 2026, a subset of customers using Databricks may have experienced failures or delays when starting new compute clusters or running jobs. Affected services included Classic Compute and Jobs, with customers encountering errors related to cluster startup or configuration, and some workspace console pages failing to load. The issue was resolved and normal service was restored by the end of the impact window.
-
-Symptoms
-• Clusters failed to start or experienced significant startup delays
-• Jobs failed to launch or were delayed
-• Some workspace console pages failed to load, showing errors related to cluster configuration or startup
-
-Current Status
-This incident has been resolved.
-
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Compute, Lakeflow","CA Central 1, EU West 3, US East 1, US East 2, US West 1, US West 2, SA East 1, AP Southeast 2, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a5181f7504679514efa68c8,2026-08-06T08:39:37Z
-2026,July,Multiple regions - Agent Bricks,"Between 13:21 UTC and 14:37 UTC on July 7, 2026, a subset of customers using Databricks may have experienced failures or errors when using Model Serving. Affected customers may have seen requests to model serving endpoints fail or return errors, or experienced degraded availability of the service during this window.
-
-Symptoms
-• Requests to Model Serving endpoints returned errors or failed
-• Failures or timeouts when querying foundation models
-• Degraded availability of Model Serving in some workspaces
-
-Current Status
-This incident has been resolved. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Agent Bricks,"EU West 1, EU Central 1, US East 1, US West 2, AP Southeast 2, AP Northeast 1",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a4d2faf59348e05f706fe2a,2026-08-06T08:39:37Z
-2026,July,US East 1 - Compute (Degraded Performance),"Between 09:55 UTC and 13:54 UTC on July 6, 2026, a subset of customers using Databricks may have experienced failures or unexpected terminations when launching or running compute clusters, as well as failures with job runs on affected services. A subset of customers may have experienced degraded availability or errors with Classic Compute, Jobs, page loads.
-
-Symptoms
-• Clusters unexpectedly terminated shortly after launch
-• New cluster launches failed to start
-• Job runs failed or terminated unexpectedly
-• Degraded UI page loads
-
-Current Status
-This incident has been resolved. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Compute,US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a4bc10fdf734251697ef9d3,2026-08-06T08:39:37Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Compute, Lakeflow",EU West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a74682a6f989604d7b07d8d,2026-08-07T07:19:19Z
