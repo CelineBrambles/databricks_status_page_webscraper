@@ -11,7 +11,7 @@ Current Status:
 The issue has been resolved, and all affected services have been restored.
 
 Next Update:
-This is the final update for this incident.",RESOLVED,Lakebase,EU Central 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a8cb3d46314b0477dc5b84e,2026-08-29T12:28:15Z
+This is the final update for this incident.",RESOLVED,Lakebase,EU Central 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a8cb3d46314b0477dc5b84e,2026-08-30T11:29:50Z
 2026,August,EU West 1 - Multiple services (Partial Service Disruption),"Between 10:10 UTC and 13:00 UTC on August 6, 2026, a subset of customers using Databricks may have experienced failures or delays when starting Serverless Compute and Classic Compute resources, including SQL warehouses, as well as failures affecting Declarative Pipelines. Impact varied in severity and duration across the affected services during this window.
 
 Symptoms
@@ -22,4 +22,4 @@ Symptoms
 Current Status
 This incident has been resolved.
 
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Compute, Lakeflow",EU West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a74682a6f989604d7b07d8d,2026-08-29T12:28:15Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Compute, Lakeflow",EU West 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6a74682a6f989604d7b07d8d,2026-08-30T11:29:50Z
