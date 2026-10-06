@@ -1,11 +1,11 @@
 year,month,incident_name,incident_description,status,components,locations,url,scraped_at
-2026,September,CA Central 1 - Lakeflow (Degraded Performance),"Impact Summary
-Between 15:15 UTC and 17:40 UTC on September 29, 2026, a subset of customers using Databricks may have experienced degraded performance with Declarative Pipelines. Affected customers may have encountered pipeline run failures or pipeline runs that did not progress during this window.
+2026,October,US East 1 - Multiple services,"Impact Summary
+Between 23:10 UTC and 23:31 UTC October 05, 2026, customers using Databricks on AWS in US East 1 may have experienced degraded performance with Databricks SQL and AI/BI. Affected customers may have encountered SQL query failures or timeouts, and AI/BI dashboards that failed to load or refresh during this window.
 
 Symptoms
-• Pipeline runs failing with control plane failure errors
-• Pipeline runs not progressing or not terminating as expected
-• Delayed or missing pipeline status information
+• SQL statement execution failures or timeouts
+• AI/BI dashboards failing to load, refresh, or showing empty or partial results
+• BI tool connections and query requests timing out
 
 Current Status
 The issue has been resolved, and all affected services have been restored.
@@ -13,19 +13,4 @@ The issue has been resolved, and all affected services have been restored.
 Next Update
 This is the final update for this incident.
 
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,Lakeflow,CA Central 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6abbf1202dc48705ab3d9b47,2026-10-05T13:56:52Z
-2026,September,US East 1 - Multiple services (Partial Service Disruption),"Impact Summary
-Between 22:57 UTC and 23:45 UTC on September 21, 2026, customers using Databricks on AWS in US East 1 may have experienced complete unavailability of Classic Compute, Serverless Compute, Declarative Pipelines, and Jobs. Affected customers may have been unable to launch new compute, and jobs and pipeline runs may have failed, remained pending, or terminated unexpectedly during this window.
-
-Symptoms
-• Cluster launch failures, with clusters stuck in Pending or Starting, and notebook attach failures
-• Serverless workloads failing to start, with allocation timeouts or unexpected workload termination
-• Jobs and pipeline runs not starting on schedule, failing immediately, or not progressing
-
-Current Status
-The incident has been fully resolved, and service is operating normally.
-
-Next Update
-This is the final update for this incident.
-
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"Compute, Databricks SQL, Lakeflow",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6ab1bc1fd492610581e1c217,2026-10-05T13:56:52Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Databricks SQL",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6ac439fbc927d205640925bb,2026-10-06T12:58:26Z
