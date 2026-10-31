@@ -13,7 +13,7 @@ The issue has been mitigated, and service is operational.
 Next Update
 This is the final update for this incident.
 
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Databricks Apps, Genie, Notebooks","CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US Gov West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6ad2425b0641a7056be8cd34,2026-10-30T12:21:08Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Databricks Apps, Genie, Notebooks","CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US Gov West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6ad2425b0641a7056be8cd34,2026-10-31T11:52:18Z
 2026,October,US West 2 - Multiple services (Partial Service Disruption),"Impact Summary
 Between 12:30 UTC and 16:30 UTC on October 12, 2026, customers using Databricks on AWS in US West 2 may have experienced degraded availability with Serverless Compute, AI/BI, Databricks SQL, Declarative Pipelines, Jobs, and Genie. Affected customers may have encountered serverless workloads failing to start, cluster allocation timeouts, or failures in dependent jobs, pipelines, SQL warehouses, dashboards, and Genie experiences during this window.
 
@@ -28,7 +28,7 @@ The issue has been resolved, and all affected services have been restored.
 Next Update
 This is the final update for this incident.
 
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Compute, Databricks SQL, Genie, Lakeflow",US West 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6accd920d492610581e1c8c1,2026-10-30T12:21:08Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Compute, Databricks SQL, Genie, Lakeflow",US West 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6accd920d492610581e1c8c1,2026-10-31T11:52:18Z
 2026,October,US East 1 - Multiple services,"Impact Summary
 Between 23:10 UTC and 23:31 UTC October 05, 2026, customers using Databricks on AWS in US East 1 may have experienced degraded performance with Databricks SQL and AI/BI. Affected customers may have encountered SQL query failures or timeouts, and AI/BI dashboards that failed to load or refresh during this window.
 
@@ -43,4 +43,4 @@ The issue has been resolved, and all affected services have been restored.
 Next Update
 This is the final update for this incident.
 
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Databricks SQL",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6ac439fbc927d205640925bb,2026-10-30T12:21:08Z
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Databricks SQL",US East 1,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6ac439fbc927d205640925bb,2026-10-31T11:52:18Z
