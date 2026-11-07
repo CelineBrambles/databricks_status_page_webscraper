@@ -1,31 +1,11 @@
 year,month,incident_name,incident_description,status,components,locations,url,scraped_at
-2026,October,Multiple regions - Multiple services (Service Disruption),"Impact Summary
-Between 15:07 UTC and 15:49 UTC on October 16, 2026, customers using Databricks may have experienced degraded availability with Serverless Compute, Databricks Apps, Databricks SQL, Jobs, Notebooks, and Genie One. Affected customers may have encountered errors, unavailable workspace UI features, or failures when starting or running workloads during this window.
+2026,November,US West 2 - Multiple services (Service Disruption),"Impact Summary
+From 22:42 UTC on November 06, 2026 to 00:43 UTC on November 07, 2026, Classic Compute, Serverless Compute, Databricks SQL, and Lakeflow Jobs were unavailable for customers using Databricks on AWS in the us-west-2 region. Affected customers may have encountered cluster launch failures, delays starting serverless workloads and SQL warehouses, or failed job runs.
 
 Symptoms
-• Genie One, the workspace app switcher, and other workspace UI features are unavailable or returning errors
-• Serverless workloads, jobs, and SQL queries failing to start or returning errors
-• Notebooks and Databricks Apps failing to load or execute
+• Cluster launch failures or clusters stuck in Pending or Starting
+• Serverless workloads and SQL warehouses failing to start or stuck in Starting
+• Job runs and SQL queries failing or terminating unexpectedly
 
 Current Status
-The issue has been mitigated, and service is operational.
-
-Next Update
-This is the final update for this incident.
-
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Databricks Apps, Genie, Notebooks","CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US Gov West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6ad2425b0641a7056be8cd34,2026-11-06T13:54:39Z
-2026,October,US West 2 - Multiple services (Partial Service Disruption),"Impact Summary
-Between 12:30 UTC and 16:30 UTC on October 12, 2026, customers using Databricks on AWS in US West 2 may have experienced degraded availability with Serverless Compute, AI/BI, Databricks SQL, Declarative Pipelines, Jobs, and Genie. Affected customers may have encountered serverless workloads failing to start, cluster allocation timeouts, or failures in dependent jobs, pipelines, SQL warehouses, dashboards, and Genie experiences during this window.
-
-Symptoms
-• Serverless workloads failing to start or timing out during cluster allocation
-• Jobs and pipeline runs remaining pending, failing, or not progressing
-• Serverless SQL warehouses, AI/BI dashboards, and Genie spaces failing to start, load, or respond
-
-Current Status
-The issue has been resolved, and all affected services have been restored.
-
-Next Update
-This is the final update for this incident.
-
-We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Compute, Databricks SQL, Genie, Lakeflow",US West 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6accd920d492610581e1c8c1,2026-11-06T13:54:39Z
+This incident has been resolved, and normal operation of all affected services has been restored. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com. This incident was related to a cloud provider issue. Additional information is available on the cloud provider's status page: health.aws.com/health/status",RESOLVED,"Compute, Databricks SQL, Lakeflow",US West 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6aee60df45f950041fd2fbf6,2026-11-07T12:39:16Z
