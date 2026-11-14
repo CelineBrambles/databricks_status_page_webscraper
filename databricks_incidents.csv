@@ -1,4 +1,19 @@
 year,month,incident_name,incident_description,status,components,locations,url,scraped_at
+2026,November,Multiple regions - Multiple services (Partial Service Disruption),"Impact Summary
+Between 15:50 UTC and 21:25 UTC on November 13, 2026, a subset of customers using Databricks may have experienced degraded performance with AI/BI, Databricks Apps, Model Serving, and Genie. Affected customers may have encountered intermittent errors, timeouts, or elevated latency when using foundation model requests and AI-powered experiences during this window.
+
+Symptoms
+• Intermittent errors or failures for foundation model serving requests
+• Elevated latency or timeouts for Genie and AI/BI conversational analytics responses
+• Errors or degraded responsiveness in AI-powered features within Databricks Apps
+
+Current Status
+The issue has been resolved, and all affected services have been restored.
+
+Next Update
+This is the final update for this incident.
+
+We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com.",RESOLVED,"AI/BI, Databricks Apps, Genie","CA Central 1, EU West 1, EU West 2, EU West 3, EU Central 1, US East 1, US East 2, US West 1, US Gov West 1, US West 2, SA East 1, AP South 1, AP Southeast 1, AP Southeast 2, AP Southeast 3, AP Northeast 1, AP Northeast 2",https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6af76f66fb71f5042f7d9699,2026-11-14T13:09:24Z
 2026,November,US West 2 - Multiple services (Service Disruption),"Impact Summary
 From 22:42 UTC on November 06, 2026 to 00:43 UTC on November 07, 2026, Classic Compute, Serverless Compute, Databricks SQL, and Lakeflow Jobs were unavailable for customers using Databricks on AWS in the us-west-2 region. Affected customers may have encountered cluster launch failures, delays starting serverless workloads and SQL warehouses, or failed job runs.
 
@@ -8,4 +23,4 @@ Symptoms
 • Job runs and SQL queries failing or terminating unexpectedly
 
 Current Status
-This incident has been resolved, and normal operation of all affected services has been restored. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com. This incident was related to a cloud provider issue. Additional information is available on the cloud provider's status page: health.aws.com/health/status",RESOLVED,"Compute, Databricks SQL, Lakeflow",US West 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6aee60df45f950041fd2fbf6,2026-11-13T14:08:19Z
+This incident has been resolved, and normal operation of all affected services has been restored. We apologize for any inconvenience this may have caused. If you require further details about this incident, please submit a support ticket or contact help@databricks.com. This incident was related to a cloud provider issue. Additional information is available on the cloud provider's status page: health.aws.com/health/status",RESOLVED,"Compute, Databricks SQL, Lakeflow",US West 2,https://status.databricks.com/pages/incident/5cf02dde58a00904bda41926/6aee60df45f950041fd2fbf6,2026-11-14T13:09:24Z
